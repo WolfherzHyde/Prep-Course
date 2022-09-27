@@ -28,20 +28,12 @@ const nuevoModulo = 21 % 5 == 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-
-  var myText = 'I am a string';
-var newString = myText.replace('string', 'sausage');
-console.log(newString);
 }
 
 function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  var x = 1
-  var y = 2
-
-  console.log (x + y);
 }
 
 function resta(x, y) {
@@ -54,11 +46,6 @@ function resta(x, y) {
 function multiplica(x, y) { 
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  var x = 2;
-  var y = 3;
-  console.log (x * y);
-
-
 }
 
 function divide(x, y) {
