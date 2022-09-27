@@ -28,10 +28,10 @@ const nuevoModulo = 21 % 5 == 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  var Jojos = "Jotaro" ;
-  var Jotaro = "StringUn" ;
 
-  console.log (Jotaro);
+  var myText = 'I am a string';
+var newString = myText.replace('string', 'sausage');
+console.log(newString);
 }
 
 function suma(x, y) {
