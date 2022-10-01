@@ -139,11 +139,9 @@ function esImpar(num) {
   // Tu código:
 function EsImpar(num)
 if (num % 2 === 1) {
-  return true
+  return true;
 } else {
-
-  return false
-  
+  return false;
 }
 }
 
