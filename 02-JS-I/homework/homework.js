@@ -1,9 +1,7 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
-const { isEmptyTask } = require("simple-git/dist/src/lib/tasks/task");
-
 // Crea una variable "string", puede contener lo que quieras:
-const nuevaString = 'Hydee';
+const nuevaString = "Hayde";
 
 // Crea una variable numérica, puede ser cualquier número:
 const nuevoNum = 27 ;
