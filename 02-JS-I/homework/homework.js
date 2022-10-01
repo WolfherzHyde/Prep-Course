@@ -28,7 +28,8 @@ const nuevoModulo = 21 % 5 == 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-
+var MiNombre = "Hyde";
+return MiNombre;
 }
 
 function suma(x, y) {
@@ -50,19 +51,30 @@ return resta;
 function multiplica(x, y) { 
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
+  var multiplicacion = x * y
+  return multiplicacion
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  
+  var division = x / y
+  return division
 }
 
 function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+  if (x = y) {
+    
+    return true
+
+  } else {
+    
+    return false
+    
+  }
 }
 
 function tienenMismaLongitud(str1, str2) {
