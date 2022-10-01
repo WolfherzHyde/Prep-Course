@@ -160,6 +160,7 @@ return NumeroAlCuadrado
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
+var num = 3
 var NumeroAlCubo = math.pow(num, 3)
 return NumeroAlCubo
 }
