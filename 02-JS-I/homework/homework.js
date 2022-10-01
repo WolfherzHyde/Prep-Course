@@ -82,12 +82,12 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (str1 === str2) {
+  if (str1.length === str2.length) {
   return true;
 
      
   } else {
-    
+
     return false;
     
   }
@@ -120,15 +120,14 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  var modulocienveintucuatro = x % y
-  return modulocienveintucuatro
+  var modulocienveintucuatro = x % y;
+  return modulocienveintucuatro;
 }
 
 function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  function EsPar(num) {
     if (num % 2 === 0) {
 
       return true;
@@ -138,7 +137,6 @@ function esPar(num) {
       return false;
     }
   }
-}
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
