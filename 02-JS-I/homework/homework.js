@@ -36,8 +36,8 @@ function suma(x, y) {
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
  function SumaDeDosNumeros(x , y)
- var suma = x + y
- return suma
+ var sumar = x + y
+ return sumar
 }
 
 function resta(x, y) {
