@@ -160,31 +160,36 @@ return NumeroAlCuadrado
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  
+var NumeroAlCubo = math.pow(num, 3)
+return NumeroAlCubo
 }
 
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  
+  var NumeroElevadoAlExponente = math.pow(num,exponent)
+  return NumeroElevadoAlExponente;
 }
 
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-  
+  var NumeroRedondeadoACero = math.round(num)
+  return NumeroRedondeadoACero
 }
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  
+  var NumeroMasCercanoHaciaArriba = math.ceil(num)
+  return NumeroMasCercanoHaciaArriba
 }
 
-function numeroRandom() {
+function numeroRandom(0, 1) {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  
+  var NumeroRandom = math.random(0, 1)
+  return NumeroRandom
 }
 
 function esPositivo(numero) {
