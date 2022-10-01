@@ -137,8 +137,7 @@ function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-function EsImpar(num)
-if (num % 2 === 1) {
+if(num % 2 === 1) {
   return true;
 } else {
   return false;
