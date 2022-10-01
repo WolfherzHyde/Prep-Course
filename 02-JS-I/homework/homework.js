@@ -35,7 +35,6 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
- function SumaDeDosNumeros(x , y);
  var sumar = x + y;
  return sumar;
 }
@@ -43,7 +42,6 @@ function suma(x, y) {
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-function RestaDeDosNumeros(x , y);
 var resta = x - y;
 return resta;
   
