@@ -1,5 +1,7 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
+const { isEmptyTask } = require("simple-git/dist/src/lib/tasks/task");
+
 // Crea una variable "string", puede contener lo que quieras:
 const nuevaString = 'Hydee';
 
@@ -28,8 +30,9 @@ const nuevoModulo = 21 % 5 == 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-var MiNombre = "Hyde";
-return MiNombre;
+let string = "Henry";
+return string;
+
 }
 
 function suma(x, y) {
@@ -67,7 +70,7 @@ function sonIguales(x, y) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (x = y) {
-    
+
     return true
 
   } else {
