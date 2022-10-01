@@ -1,22 +1,22 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
 // Crea una variable "string", puede contener lo que quieras:
-const nuevaString = "Hayde";
+var nuevaString = "Hayde";
 
 // Crea una variable numérica, puede ser cualquier número:
-const nuevoNum = 27 ;
+var nuevoNum = 27 ;
 
 // Crea una variable booleana:
-const nuevoBool = false ;
+var nuevoBool = false ;
 
 // Resuelve el siguiente problema matemático:
-const nuevaResta = 10 - 5 == 5;
+var nuevaResta = 10 - 5 == 5;
 
 // Resuelve el siguiente problema matemático:
-const nuevaMultiplicacion = 10 * 4 === 40 ;
+var nuevaMultiplicacion = 10 * 4 == 40 ;
 
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 == 1;
+var nuevoModulo = 21 % 5 == 1;
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -82,11 +82,11 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (length.str1 === length.str2) {
-    return true;
+  function Es
+  
     
-  } else {
-    return false;
+  
+  
     
   }
 
@@ -127,14 +127,30 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+  function EsPar(num) {
+    if (num % 2 === 0) {
+
+      return true
+      
+    } else {
+      
+      return false
+    }
+  }
 }
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
+function EsImpar(num)
+if (num % 2 === 1) {
+  return true
+} else {
 
+  return false
+  
+}
 }
 
 function elevarAlCuadrado(num) {
