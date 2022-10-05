@@ -59,15 +59,12 @@ function saludo(idioma) {
     return ("Guten Tag!")
   }
   else {
-    switch {
-      case == "mandarin"
-        return("Ni Hao")
-    }{
-      case == "ingles"
-      return("Hello!")
+    switch(idioma){
+      case "mandarin"{
+        return ("Ni Hao!")
     }
   }
-  else if(idioma !== "aleman"|| idioma !== "mandarin" || idioma !== ingles){
+  else if(idioma !== "aleman","mandarin","ingles"){
     return("Hola!")
     }
   }
