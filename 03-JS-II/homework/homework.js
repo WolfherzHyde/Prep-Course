@@ -6,10 +6,10 @@ function obtenerMayor(x, y) {
   // Si son iguales, devuelve cualquiera de los dos
   // Tu código:
   if (x >= y){
-    console.log(x);
+    return(x)
   }
-      else ( y >= x); 
-          console.log(y);
+      else ( y >= x)
+          return(y)
 }
 
 function mayoriaDeEdad(edad) {  
@@ -54,16 +54,23 @@ function saludo(idioma) {
   // Si "idioma" es "ingles", devuelve "Hello!"
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
-}
 
-function colors(color) {
-  //La función recibe un color. Devolver el string correspondiente:
-  //En caso que el color recibido sea "blue", devuleve --> "This is blue"
-  //En caso que el color recibido sea "red", devuleve --> "This is red"
-  //En caso que el color recibido sea "green", devuleve --> "This is green"
-  //En caso que el color recibido sea "orange", devuleve --> "This is orange"
-  //Caso default: devuelve --> "Color not found"
-  //Usar el statement Switch.
+  if (idioma == "aleman"){
+    return ("Guten Tag!")
+  }
+  else {
+    switch {
+      case == "mandarin"
+        return("Ni Hao")
+    }{
+      case == "ingles"
+      return("Hello!")
+    }
+  }
+  else if(idioma !== "aleman"|| idioma !== "mandarin" || idioma !== ingles){
+    return("Hola!")
+    }
+  }
 }
 
 function esDiezOCinco(numero) {
