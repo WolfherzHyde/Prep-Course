@@ -1,5 +1,7 @@
 // No cambies los nombres de las funciones.
 
+const { arrayReplaceAt } = require("markdown-it/lib/common/utils")
+
 function obtenerMayor(x, y) {
   // "x" e "y" son números enteros (int).
   // Devuelve el número más grande
@@ -216,27 +218,57 @@ function esVerdadero(valor){
   //Escribe una función que reciba un valor booleano y retorne “Soy verdadero” 
   //si su valor es true y “Soy falso” si su valor es false.
   //Escribe tu código aquí
+  if(valor == true){
+    return "Soy verdadero";
+  }
+  if(valor == false){
+    return"Soy falso";
+  }
+} 
 
-}
 
-function tablaDelSeis(){
+
+
   //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
-  //Escribe tu código aquí   
+  //Escribe tu código aquí
+  function tablaDelSeis(){
+  let arraytablaDelSeis = []
+  for(let i = 0 ; i <= 10 ; i ++ ){
+    arraytablaDelSeis.push(i * 6); }
+     return arraytablaDelSeis
+    
+  }
   
-}
-
 function tieneTresDigitos(numero){
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
   //Escribe tu código aquí
-  
+  if( numero <= 99){
+    return false;
+  } 
+  else if (numero > 999){
+    return false
+  }
+  else
+  {return true}
 }
 
 function doWhile(numero) {
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
   //Retornar el valor final.
   //Usar el bucle do ... while.
-}
+  let x = numero;
+  let y = 0;
+  
+  do{
+    x = x + 5 
+    y = y + 1
+   
+  } while (y < 8);
+  return x
+  
+  }
+
 
 
 // No modificar nada debajo de esta línea
