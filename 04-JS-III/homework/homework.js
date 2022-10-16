@@ -32,7 +32,7 @@ function incrementarPorUno(array) {
   // Tu código:
   var nuevoArray = [];
   for(var i = 0 ; i < array.length ; i++){
-    nuevoArray [i]= array[i] + 1 ;
+  nuevoArray.push (array [i] + 1);
     }
     return nuevoArray;
   }
